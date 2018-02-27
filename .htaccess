@@ -1,0 +1,18 @@
+# Send all responses in utf-8
+AddDefaultCharset utf-8
+# Allow directory browsing
+Options +Indexes
+
+#Use url rewriting
+RewriteEngine on
+# Base directory for rewritng
+RewriteBase /advancedWebFinal/
+# Example
+
+RewriteRule ^LogIn$ LoginPage.php
+RewriteRule ^home$ Home.php
+RewriteRule ^create-project$ CreateProject.php
+RewriteRule ^all-projects$ ProjectResources.php
+RewriteRule ^add-members-to-project-(.*)$ addMember.php?id=$1
+RewriteRule ^project-(.*)$ ProjectResource.php?id=$1
+RewriteRule ^feature-(.*)$ featureResource.php?id=$1

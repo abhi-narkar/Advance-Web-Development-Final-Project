@@ -1,0 +1,126 @@
+html,
+body.text-center{
+  height: 100%;
+}
+body{
+	padding: 10px !important;
+}
+
+body.text-center{
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* Css for the create project page */
+form{
+	float: left;
+}
+div.parent{
+	float: left;
+	width: 100%;
+	max-width: 600px;
+}
+
+.parent p{
+	float: left;
+}
+
+img#add, img#remove{
+	float: right;
+	max-width: 30px;
+	cursor: pointer;
+}
+
+#iteration input{
+	margin-bottom: 10px;
+}
+
+/*Custom layout for add project member*/
+#add_project_member{
+	width: 100%;
+}
+#add_project_member .member{
+	margin: 10px 0;
+}
+#add_project_member input{
+	margin: 0 10px;
+}
+#add_project_member select, #add_project_member label{
+	margin-left: 10px;
+}
+
+/*Custom layout for project detail*/
+h3{
+	text-align: center;
+}
+.section{
+	width: 70%;
+	margin: auto;
+}
+.section button{
+	float: right;
+}
+table#featureList{
+	width: 70%;
+	margin: auto;
+}
+#featureList tr{
+	padding-bottom: 10px;
+}
+#featureList td{
+	max-width: 200px;
+	padding: 5px 30px 10px 0;
+}
+
+/*Custom layout for show all projects*/
+table{
+	width: 70%;
+	margin: auto;
+}
+tr{
+	padding-bottom: 10px;
+}
+td{
+	max-width: 200px;
+	padding: 5px 30px 10px 0;
+}
